@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Shubham Jain",
+      "email": "jshubham@live.in",
+      "mob": "9806923192",
+      "profession": "programmer"
+    },
+    {
+      "id": 2,
+      "name": "Bindu Jain",
+      "email": "sawthi.bindu24@gamil.com",
+      "mob": "9700674743",
+      "profession": "programmer"
+    }
+  ]
+}

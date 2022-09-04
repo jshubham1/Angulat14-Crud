@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <legend>
+                Add Details
+            </legend>
+            <form action="submit">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" [(ngModel)] = "userFormData.name" class="form-control" id="name" aria-describedby="nameHelp">
+                    <div id="nameHelp" class="form-text">Please enter your full name.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="mob" class="form-label">Mobile Number</label>
+                    <input type="number" class="form-control" id="mob" aria-describedby="mobHelp">
+                    <div id="mobHelp" class="form-text">Please enter 10 digit mobile number.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="profession" class="form-label">Profession</label>
+                    <input type="text" class="form-control" id="profession" aria-describedby="professionHelp">
+                    <div id="professionHelp" class="form-text">Please tell us what you do?</div>
+
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
