@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: "Datahub/about", component: AboutComponent },
   { path: "Datahub/contact", component: ContactComponent },
   { path: "Datahub/create", component: CreateComponent },
-  { path: "Datahub/edit", component: EditComponent },
+  { path: "Datahub/edit/:id", component: EditComponent },
   { path: "Datahub/home", component: HomeComponent },
   { path: "Datahub/resume", component: ResumeComponent }
 ];

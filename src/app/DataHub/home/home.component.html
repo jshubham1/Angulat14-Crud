@@ -24,7 +24,7 @@
                     <td>{{data.mob}}</td>
                     <td>{{data.profession}}</td>
                     <td>
-                        <button type="button" class="btn btn-primary" routerLink="/Datahub/edit">
+                        <button type="button" class="btn btn-primary" [routerLink]="['/Datahub/edit/', data.id]">
                             Edit <i class="fa fa-edit"></i>
                         </button>
                     </td>
